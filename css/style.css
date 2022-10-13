@@ -244,6 +244,10 @@ footer .logo {
 
 /* css pasos app */
 /* From uiverse.io by @Codewithvinay */
+.card-pp {
+  display: grid;
+}
+
 .box {
   position: relative;
   width: 220px;
