@@ -3,10 +3,14 @@
     margin: 30px;
     font-style: italic;
 }
-.download-app{
-    justify-content: center;
-    width: auto;
-    height: auto;
-    display: grid;
+
+.container-image{
+    width: 70%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.img-app{
+    width: 100%;
 }
 

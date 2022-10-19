@@ -7,6 +7,25 @@
   box-sizing: border-box;
 }
 
+.frase-app {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  font-size: 160px;
+}
+
+.app-100 {
+  font-size: 130px;
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+}
+
+.online-app {
+  font-family: "Anton", sans-serif;
+  font-size: 180px;
+  font-style: italic;
+}
+
 .h1 {
   font-size: 20px;
   margin: 30px;
@@ -41,23 +60,6 @@ header nav div .logo {
 
 .card-index {
   padding: 40px;
-}
-
-.frase-app {
-  display: grid;
-  text-align: center;
-  justify-content: center;
-  font-size: 160px;
-}
-
-.app-100 {
-  font-size: 130px;
-  font-family: "Anton", sans-serif;
-}
-
-.online-app {
-  font-family: "Anton", sans-serif;
-  font-size: 180px;
 }
 
 .ENLACES-APP {
@@ -265,11 +267,15 @@ footer .logo {
   font-style: italic;
 }
 
-.download-app {
-  justify-content: center;
-  width: auto;
-  height: auto;
-  display: grid;
+.container-image {
+  width: 70%;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.img-app {
+  width: 100%;
 }
 
 .h1 {

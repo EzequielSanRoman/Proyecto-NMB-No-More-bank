@@ -3,3 +3,25 @@
     padding: 0%;
     box-sizing: border-box;
  }
+
+ .frase-app {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-size: 160px;
+}
+
+
+
+.app-100 {
+    font-size: 130px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+
+.online-app {
+    font-family: 'Anton', sans-serif;
+    font-size: 180px;
+    font-style: italic;
+
+}
