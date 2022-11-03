@@ -11,12 +11,21 @@
     margin: 30px;
     font-style: italic;
 }
+.iconos-redes-footer{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
 
  .frase-app {
     display: grid;
     text-align: center;
     justify-content: center;
     font-size: 160px;
+    
+}
+a{
+    text-decoration: none;
 }
 
 
@@ -94,6 +103,12 @@
         font-size: 10px;
         margin: 30px;
         font-style: italic;
+        
+    }
+}
+@media(max-width: 450px){
+    .h1{
+        display: none;
     }
 }
 
